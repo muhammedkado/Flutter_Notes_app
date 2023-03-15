@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import 'model/note_model.dart';
+import '../model/note_model.dart';
+
 
 final _lightColors = [
   Colors.amber.shade300,

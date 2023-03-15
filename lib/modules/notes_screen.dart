@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:todo_app/widget.dart';
-
+import '../db/notes_database.dart';
+import '../model/note_model.dart';
+import 'NoteCardWidget.dart';
 import 'add_edit_screen.dart';
-import 'db/notes_database.dart';
-import 'model/note_model.dart';
 import 'not_detials.dart';
 
 class NotesPage extends StatefulWidget {
